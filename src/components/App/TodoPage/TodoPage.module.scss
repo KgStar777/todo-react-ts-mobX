@@ -1,0 +1,15 @@
+.AllWrapper {
+  margin: 2rem 3rem;
+  @media (max-width: 480px) {
+    margin: 1rem .5rem;
+  }
+}
+
+.ButtonWrapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+}
+
+

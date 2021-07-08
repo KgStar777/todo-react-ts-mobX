@@ -1,0 +1,47 @@
+.GridPostWrapper {
+  cursor: pointer;
+  transition: .4s;
+  border-radius: 5px;
+  h3 {
+    padding: 2px 6px;
+    margin: 0;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  p {
+    color: teal;
+    font-size: 14px;
+    margin: 6px 0;
+    font-weight: bold;
+  }
+  .PostText {
+    padding: 2px 6px;
+    text-align: justify;
+    transition: .4s;
+  }
+  @media (max-width: 768px) {
+    p {
+      margin: 4px 0;
+      font-size: 12px;
+    }
+    .PostText {
+      font-size: 14px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 480px) {
+    p {
+      margin: 4px 0;
+      font-size: 12px;
+    }
+    .PostText {
+      font-size: 14px;
+    }
+    h3 {
+      font-size: 14px;
+    }
+  }
+}

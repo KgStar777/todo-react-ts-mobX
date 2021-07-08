@@ -1,0 +1,27 @@
+.AboutWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  a {
+    color: teal;
+    a:hover {
+      color: grey;
+    }
+  }
+  h1 {
+    margin-top: 1rem;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  .PhotoWrapper {
+    img {
+      border-radius: 50%;
+      max-width: 240px;
+    }
+  }
+}
+
+

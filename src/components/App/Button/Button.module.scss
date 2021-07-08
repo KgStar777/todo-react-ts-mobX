@@ -1,0 +1,19 @@
+.Button {
+  min-width: 4rem;
+  margin: 10px 5px;
+  color: grey;
+  padding: 0 10px;
+  box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;
+  background: antiquewhite;
+  border-radius:20px;
+  border: none;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: .7s;
+  &:hover {
+    background: dodgerblue;
+    color: white;
+    letter-spacing: 2px;
+  }
+}

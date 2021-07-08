@@ -1,0 +1,17 @@
+.TodoWrapper {
+  //box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
+  background: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius:20px;
+  border: none;
+  margin-bottom: 70px;
+
+  @media (min-width: 768px) {
+    max-width: 600px;
+  }
+
+  @media (min-width: 480px) {
+
+  }
+}

@@ -1,0 +1,27 @@
+.Header {
+  z-index: 1;
+  width: 100%;
+  box-shadow: 5px 5px 10px lighten(#d9d9d9, 10%);
+  background: antiquewhite;
+  .Menu {
+    background: antiquewhite;
+  }
+  h1 {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin:0 auto;
+    font-size: 23px;
+    color: dodgerblue;
+  }
+  @media (max-width: 768px) {
+    padding: 0 2rem;
+  }
+  @media (max-width: 480px) {
+    padding: 0 1rem;
+    h1 {
+      font-size: 20px;
+    }
+
+  }
+}
